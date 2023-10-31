@@ -73,6 +73,7 @@ class Validation extends React.Component {
     return (
       <div style={style}>
         {this.state.errors && <ShowErrors errors={this.state.errors} />}
+        <h2>Yulianto WEB</h2>
         <h4>Login Page</h4>
         <form onSubmit={this.handleSubmit}>
           <CustomInput type="email" name="email" label="email" onChange={(value) => this.setState({ email: value })} />
